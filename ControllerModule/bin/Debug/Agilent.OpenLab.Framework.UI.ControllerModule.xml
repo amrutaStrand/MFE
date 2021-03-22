@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Agilent.OpenLab.ControllerModule</name>
+    </assembly>
+    <members>
+        <member name="T:Agilent.OpenLab.ControllerModule.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.ControllerModule.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.ControllerModule.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.ControllerModule.Properties.Resources.ControllerModuleCaption">
+            <summary>
+              Looks up a localized string similar to ControllerModule.
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.ControllerModule.Properties.Resources.ControllerModuleHint">
+            <summary>
+              Looks up a localized string similar to ControllerModule.
+            </summary>
+        </member>
+        <member name="T:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel">
+            <summary>
+            UIModuleProjectTemplateViewModel
+            </summary>
+            <summary>
+            UIModuleProjectTemplateViewModel
+            </summary>
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel.ToggleCommandA">
+            <summary>
+            Gets the toggle command A.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="P:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel.TriggerCommandB">
+            <summary>
+            Gets the trigger command B.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel.InitializeCommands">
+            <summary>
+            Initializes the commands.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel.OnTestCommand(System.Object)">
+            <summary>
+            Event handler for test command.
+            </summary>
+            <param name="unused">
+            The unused. 
+            </param>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel.SubscribeEvents">
+            <summary>
+            Subscribes the events.
+            </summary>
+            <remarks>
+            Subscribe to any events the module has to react on.
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel.UnsubscribeEvents">
+            <summary>
+            Unsubscribes the events.
+            </summary>
+            <remarks>
+            Unsubscribe any events previously subscribed.
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel.OnActivated">
+            <summary>
+              Called when [activated].
+            </summary>
+            <remarks>
+            This method is called when the module gets activated. This is usually the case when the 
+            module switches from hidden state to visible state. To optimize performance, modules 
+            should not directly process events if they are hidden, but should only track those 
+            events and handle them only if the module becomes visible again. The module should 
+            track unprocessed events in the event handlers (if the module is not active) and should 
+            process the events in this method if the module becomes active again.
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel.OnDeactivated">
+            <summary>
+              Called when [deactivated].
+            </summary>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel.OnLoaded">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <remarks>
+            Use this method to load user settings.
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel.OnUnload">
+            <summary>
+            Called when [unload].
+            </summary>
+            <remarks>
+            Use this method to save user settings. This is also the place to unsubscribe any
+            subscribed events.
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+              Initializes a new instance of the <see cref = "T:Agilent.OpenLab.ControllerModule.ControllerModuleViewModel" /> class.
+            </summary>
+            <param name = "container">The container.</param>
+        </member>
+        <member name="T:Agilent.OpenLab.ControllerModule.ControllerModuleModule">
+            <summary>
+            ControllerModuleModule
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleModule.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Agilent.OpenLab.ControllerModule.ControllerModuleModule"/> class.
+            </summary>
+            <param name="container">
+            The container. 
+            </param>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleModule.ExtendMenu">
+            <summary>
+            Extends the menu.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.ControllerModule.ControllerModuleModule.RegisterTypes">
+            <summary>
+            Registers the types.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="P:Agilent.OpenLab.ControllerModule.ControllerModuleModule.Caption">
+            <summary>
+            Gets the caption.
+            </summary>
+        </member>
+        <member name="T:Agilent.OpenLab.ControllerModule.IControllerModuleViewModel">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.ControllerModule.IControllerModuleViewModel.ToggleCommandA">
+            <summary>
+            Gets the toggle command A.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="P:Agilent.OpenLab.ControllerModule.IControllerModuleViewModel.TriggerCommandB">
+            <summary>
+            Gets the trigger command B.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+    </members>
+</doc>

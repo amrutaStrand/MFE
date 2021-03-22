@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Agilent.OpenLab.TestUI</name>
+    </assembly>
+    <members>
+        <member name="T:Agilent.OpenLab.TestUI.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.Properties.Resources.TestUICaption">
+            <summary>
+              Looks up a localized string similar to TestUI.
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.Properties.Resources.TestUIHint">
+            <summary>
+              Looks up a localized string similar to TestUI.
+            </summary>
+        </member>
+        <member name="T:Agilent.OpenLab.TestUI.TestUIViewModel">
+            <summary>
+            TestUIViewModel
+            </summary>
+            <summary>
+            TestUIViewModel
+            </summary>
+            <summary>
+            TestUIViewModel
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.TestUIViewModel.ToggleCommandA">
+            <summary>
+            Gets the toggle command A.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.TestUIViewModel.TriggerCommandB">
+            <summary>
+            Gets the trigger command B.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIViewModel.InitializeCommands">
+            <summary>
+            Initializes the commands.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIViewModel.OnTestCommand(System.Object)">
+            <summary>
+            Event handler for test command.
+            </summary>
+            <param name="unused">
+            The unused. 
+            </param>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="F:Agilent.OpenLab.TestUI.TestUIViewModel.unhandledSomethingEventMonitored">
+            <summary>
+            parameters used to track unhandled events
+            </summary>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIViewModel.SubscribeEvents">
+            <summary>
+            Subscribes the events.
+            </summary>
+            <remarks>
+            Subscribe to any events the module has to react on.
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIViewModel.UnsubscribeEvents">
+            <summary>
+            Unsubscribes the events.
+            </summary>
+            <remarks>
+            Unsubscribe any events previously subscribed.
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIViewModel.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Agilent.OpenLab.TestUI.TestUIViewModel"/> class.
+            </summary>
+            <param name="container">
+            The container. 
+            </param>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.TestUIViewModel.View">
+            <summary>
+            Gets or sets the view.
+            </summary>
+            <value>
+            The view. 
+            </value>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIViewModel.OnActivated">
+            <summary>
+            Called when [activated].
+            </summary>
+            <remarks>
+            This method is called when the module gets activated. This is usually the case when the 
+            module switches from hidden state to visible state. To optimize performance, modules 
+            should not directly process events if they are hidden, but should only track those 
+            events and handle them only if the module becomes visible again. The module should 
+            track unprocessed events in the event handlers (if the module is not active) and should 
+            process the events in this method if the module becomes active again.
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIViewModel.OnDeactivated">
+            <summary>
+            Called when [deactivated].
+            </summary>
+            <remarks>
+            This method is called when the module gets deactivated. This is usually the case when
+            the module switches from visible state to hidden state. Usually there is not much to do 
+            in this method.
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIViewModel.OnLoaded">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <remarks>
+            Use this method to load user settings.
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIViewModel.OnUnload">
+            <summary>
+            Called when [unload].
+            </summary>
+            <remarks>
+            Use this method to save user settings. This is also the place to unsubscribe any
+            subscribed events.
+            </remarks>
+        </member>
+        <member name="T:Agilent.OpenLab.TestUI.TestUIModule">
+            <summary>
+            TestUIModule
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIModule.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Agilent.OpenLab.TestUI.TestUIModule"/> class.
+            </summary>
+            <param name="container">
+            The container. 
+            </param>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIModule.ExtendMenu">
+            <summary>
+            Extends the menu.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIModule.RegisterTypes">
+            <summary>
+            Registers the types.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.TestUIModule.Caption">
+            <summary>
+            Gets the caption.
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.TestUIModule.Image">
+            <summary>
+            Gets the image.
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.TestUIModule.KeyTip">
+            <summary>
+            Gets the key tip.
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.TestUIModule.Tooltip">
+            <summary>
+            Gets the tooltip.
+            </summary>
+        </member>
+        <member name="T:Agilent.OpenLab.TestUI.ITestUIViewModel">
+            <summary>
+            ITestUIViewModel
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.ITestUIViewModel.ToggleCommandA">
+            <summary>
+            Gets the toggle command A.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.ITestUIViewModel.TriggerCommandB">
+            <summary>
+            Gets the trigger command B.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.ITestUIViewModel.View">
+            <summary>
+            Gets the view.
+            </summary>
+        </member>
+        <member name="T:Agilent.OpenLab.TestUI.ITestUIView">
+            <summary>
+            ITestUIView
+            </summary>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.ITestUIView.Model">
+            <summary>
+            Gets or sets the model.
+            </summary>
+            <value>
+            The model. 
+            </value>
+        </member>
+        <member name="T:Agilent.OpenLab.TestUI.TestUIView">
+            <summary>
+            Interaction logic for TestUIView.xaml
+            </summary>
+            <remarks>
+            </remarks>
+            <summary>
+            TestUIView
+            </summary>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Agilent.OpenLab.TestUI.TestUIView"/> class.
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="P:Agilent.OpenLab.TestUI.TestUIView.Model">
+            <summary>
+            Gets or sets the model.
+            </summary>
+            <value>
+            The model. 
+            </value>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIView.OnLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when [loaded].
+            </summary>
+            <param name="sender">
+            The sender. 
+            </param>
+            <param name="e">
+            The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data. 
+            </param>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIView.OnUnloaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Called when [unload].
+            </summary>
+            <param name="sender">
+            The sender. 
+            </param>
+            <param name="e">
+            The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data. 
+            </param>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:Agilent.OpenLab.TestUI.TestUIView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

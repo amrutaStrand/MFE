@@ -1,0 +1,21 @@
+<Workspaces><ControllerModules /><Id>00000000-0000-0000-0000-000000000001</Id><SingleViewWorkspace><ControllerModules><ControllerModule><Module>Agilent.OpenLab.ControllerModule</Module><InitializationMode>WhenAvailable</InitializationMode><SupportedStates /></ControllerModule></ControllerModules><NavigationView><ControllerModules /><SupportedStates /><ModuleStateSubViewMappings /><SubViewNavigationType>ExternalControlled</SubViewNavigationType><SubViews><DockingView><ControllerModules /><Tag>Layout 1</Tag><SupportedStates /><Configuration>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;xamDockManager version="14.2.20142.2283"&gt;
+  &lt;contentPanes&gt;
+    &lt;contentPane name="Agilent_OpenLab_TestUI" location="DockedLeft" /&gt;
+  &lt;/contentPanes&gt;
+  &lt;panes&gt;
+    &lt;splitPane name="Agilent_OpenLab_TestUI" splitterOrientation="Vertical" location="DockedLeft"&gt;
+      &lt;contentPane name="Agilent_OpenLab_TestUI" /&gt;
+    &lt;/splitPane&gt;
+  &lt;/panes&gt;
+&lt;/xamDockManager&gt;</Configuration><DefaultConfiguration>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;xamDockManager version="14.2.20142.2283"&gt;
+  &lt;contentPanes&gt;
+    &lt;contentPane name="Agilent_OpenLab_TestUI" location="DockedLeft" /&gt;
+  &lt;/contentPanes&gt;
+  &lt;panes&gt;
+    &lt;splitPane name="Agilent_OpenLab_TestUI" splitterOrientation="Vertical" location="DockedLeft"&gt;
+      &lt;contentPane name="Agilent_OpenLab_TestUI" /&gt;
+    &lt;/splitPane&gt;
+  &lt;/panes&gt;
+&lt;/xamDockManager&gt;</DefaultConfiguration><IsCustomView>false</IsCustomView><Modules><DockingModule><Module>Agilent.OpenLab.TestUI</Module><InitializationMode>WhenAvailable</InitializationMode><SupportedStates /><AllowPinning>false</AllowPinning><Required>false</Required></DockingModule></Modules></DockingView></SubViews><LastActiveSubViewTag>Layout 1</LastActiveSubViewTag></NavigationView></SingleViewWorkspace></Workspaces>
